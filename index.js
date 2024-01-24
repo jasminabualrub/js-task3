@@ -10,11 +10,13 @@ return `
 <h2>${ele.title}</h2>
 <img src=${ele.thumbnail}>
 <p>${ele.price}$</p>
-<div class='line'></div>
+
+
 </div>
+
 `
     }).join('');
-    document.querySelector('.product').innerHTML=result;
+    document.querySelector('.cont').innerHTML=result;
 }
 
 getElements();
